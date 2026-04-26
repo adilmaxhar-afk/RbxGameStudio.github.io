@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Custom Roblox Games - $1 Only</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Pattern -->
+    <div class="bg-pattern"></div>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fab fa-roblox"></i>
+                <span>ROBLOX BUILDER</span>
+            </div>
+            <a href="https://discord.com/channels/1492834891245555763/1492835035852570666" class="discord-btn" target="_blank">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Custom Roblox Games</h1>
+                <p class="hero-subtitle">Tell me your idea → Pay $1 → Get full game file</p>
+                <div class="hero-price">
+                    <div class="price-pk">🇵🇰 280 PKR</div>
+                    <div class="price-us">$1 USD</div>
+                </div>
+                <a href="#order" class="cta-btn">Order Now</a>
+            </div>
+        </section>
+
+        <!-- Order Form -->
+        <section id="order" class="order-section">
+            <div class="form-card">
+                <h2><i class="fas fa-gamepad"></i> Order Form</h2>
+                <form id="orderForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email (adilmaxhar@gmail.com will reply)" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="text" id="roblox" placeholder="Roblox Username" required>
+                        <select id="country">
+                            <option value="">🇵🇰 Pakistan (280 PKR)</option>
+                            <option value="us">🇺🇸 USA ($1)</option>
+                            <option value="in">🇮🇳 India ($1)</option>
+                            <option value="other">🌍 Other ($1)</option>
+                        </select>
+                    </div>
+                    
+                    <textarea id="idea" placeholder="Your Game Idea... (Obby, Tycoon, Simulator, etc)" required rows="5"></textarea>
+                    
+                    <div class="input-group">
+                        <input type="text" id="payment" placeholder="Payment Method (Easypaisa/Jazzcash/Paypal)" required>
+                        <input type="text" id="discord" placeholder="Discord (Optional)">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send to adilmaxhar@gmail.com
+                    </button>
+                </form>
+
+                <!-- Success Message -->
+                <div id="success" class="success-box">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Order Sent Successfully!</h3>
+                    <div class="payment-box">
+                        <h4>💰 SEND PAYMENT:</h4>
+                        <div class="payment-pk">
+                            🇵🇰 <strong>280 PKR</strong><br>
+                            📱 Easypaisa: <code>03XXXXXXXXX</code><br>
+                            💳 JazzCash: <code>03XXXXXXXXX</code>
+                        </div>
+                        <div class="payment-global">
+                            🌍 <strong>$1 USD</strong><br>
+                            💳 PayPal: adilmaxhar@gmail.com
+                        </div>
+                        <p><strong>Send screenshot → Get game in 24h!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proof -->
+        <section class="proof-section">
+            <h2>✅ Games Delivered</h2>
+            <div class="proof-grid">
+                <div class="proof-card">
+                    <div class="proof-img obby"></div>
+                    <h3>Obby Game</h3>
+                    <p>Ali 🇵🇰 - 280 PKR</p>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-img tycoon"></div>
+                    <h3>Car Tycoon</h3>
+                    <p>John 🇺🇸 - $1</p>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-img simulator"></div>
+                    <h3>Pet Sim</h3>
+                    <p>Raj 🇮🇳 - $1</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>📧 Orders: adilmaxhar@gmail.com | 💬 Discord: #your-channel</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
