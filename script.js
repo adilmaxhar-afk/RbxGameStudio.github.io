@@ -35,11 +35,11 @@ ORDER TIME: ${orderData.date}
 
 === SEND THEM PAYMENT INFO ===
 🇵🇰 280 PKR → Easypaisa/JazzCash: 03XXXXXXXXX
-🌍 $1 USD → PayPal: adilmaxhar@gmail.com
+🌍 $1 USD → PayPal: 
         `.trim();
         
         // Open email client
-        window.location.href = `mailto:adilmaxhar@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         // Scroll to top
         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -53,8 +53,8 @@ ORDER TIME: ${orderData.date}
     
     // Copy email on click
     document.body.addEventListener('click', function(e) {
-        if (e.target.textContent.includes('adilmaxhar@gmail.com')) {
-            navigator.clipboard.writeText('adilmaxhar@gmail.com');
+        if (e.target.textContent.includes('')) {
+            navigator.clipboard.writeText('');
             const original = e.target.textContent;
             e.target.textContent = '✅ Copied!';
             setTimeout(() => e.target.textContent = original, 1500);
